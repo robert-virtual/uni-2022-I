@@ -1,0 +1,31 @@
+p = unidades / $ de insumos
+
+1 galon gasolina = $4 
+
+semana 1: 
+	p = 100,000 kwh/ (10,000*4) dolares
+	p =  2.5 kwh/$ 
+	p =  2.5 kwh por cada dolar invertido en gasolina
+	
+semana 2: 
+	p = 150,000 kwh/ (16,000*4) dolares
+	p =  2.34 kwh/$ 
+	p =  2.34 kwh por cada dolar invertido gasolina
+	
+%🔺 = ((2.34 - 2.5) / 2.5) * 100 = -6.4%
+
+
+
+***********************************************
+
+
+ENE:
+	p = 2,300 unidades/ (325*3) horas maquina
+	p =  7 unidades/h 
+	p =  7 kwh por cada hora maquina
+
+FEB:
+	p = 1,800 unidades/ 200 horas maquina
+	p =  7 unidades/h 
+	p =  7 kwh por cada hora maquina
+	

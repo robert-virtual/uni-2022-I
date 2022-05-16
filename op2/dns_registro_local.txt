@@ -1,0 +1,2 @@
+dns
+antes de ir a verificar al servidor dns se verifica en el registro local que es un archivo

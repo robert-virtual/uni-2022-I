@@ -1,0 +1,2 @@
+herz:cantidad de ciclos por segundo;
+mayor parte de dispositivos electronicos funcionan con corriente directa

@@ -1,0 +1,59 @@
+I9 9900KF
+	- I9 = intel core i9  
+	- 9  = 9na generacion
+	- KF = desbloqueado y necesita grafica dedicada
+	
+ 
+I9 11900K
+	- 11 = 11 generacion
+	- k = desbloqueado para overclocking
+
+I5 10400S
+	- I5 = core i 5
+	- 10 = decima generacion
+	- S = edicion especial
+		
+I5 12400F
+	- I5 = intel core i5
+	- 12 = doceava generacion
+	- F =  necesita grafica dedicada
+	
+	
+	
+RYZEN 5 5600G
+	- RYZEN 5 = procesador de alto rendimiento  
+	- 5 = quinta generacion
+	- 6 = nivel de rendimiento alto
+	- 00 = numero de modelo
+	- G = trae gfx
+
+
+RYZEN 5 3600
+	- RYZEN 5 = procesador de alto rendimiento  
+	- 3 = tercer generacion
+	- 6 = nivel de rendimiento alto
+	- 00 = numero de modelo
+
+RYZEN 5 5600X
+	- RYZEN 5 = procesador de alto rendimiento  
+	- 5 = quinta generacion
+	- 6 = nivel de rendimiento alto
+	- 00 = numero de modelo
+	- X = alto rendimiento con XFR
+
+RYZEN 9 5950X
+	- RYZEN 9 = el mejor procesador de alto rendimiento  
+	- 5 = quinta generacion
+	- 9 = el mejor rendimiento
+	- 50 = numero de modelo
+	- X = alto rendimiento con XFR
+	 
+
+
+
+
+U  = potatil de bajo consumo
+
+
+XE = edicion extrema escritorio maximo rendimiento
+

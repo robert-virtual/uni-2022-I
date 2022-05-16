@@ -1,0 +1,60 @@
+ inicializar disco scsi kali linux
+
+instalar open-scsi
+	$ sudo apt install open-iscsi
+
+cambiar configuracion
+abrir archivo de configuracion
+
+	$ sudo vim /etc/iscsi/iscsid.conf
+	
+	descomentar lineade modo de detecccion automatica
+	
+	
+reiniciar servicio
+	$ systemctl restart iscsid.service
+
+
+detectar dispositivos
+	$ sudo iscsiadm -m discovery -t sendtargets -p ip_servidor_nas:perto_servicio_iscsi
+	$ sudo iscsiadm -m discovery -t sendtargets -p 192.168.74.132:3260
+
+configurar login automatico
+	$ sudo iscsiadm -m node --op=update -n node.conn[0].startup -v automatic
+	$ sudo iscsiadm -m node --op=update -n node.startup -v automatic	
+
+habilitar los servicios de iscsi para inician al arrancar el sistema operativo
+
+	$ systemctl enable open-iscsi
+	
+	$ systemctl enable iscsid
+	
+reiniciar servicio
+	$ systemctl restart iscsid.service
+
+
+iniciar session
+
+	iniciar session en todos los discos
+		$ sudo iscsiadm -m node --loginall=automatic
+
+	Iniciar session en un solo disco
+		$ sudo iscsiadm -m node --targetname iqn.2007-09.jp.ne.peach.istgt:diskRaid1Test --login
+	
+	
+Crear Tabla de particiones
+ 	abrir gparted selecccionar la unidad que vamos a agregar  
+ 	ir a device->partition table
+ 	
+crear volumen
+	click derecho sobre el spacio no asignado y crear nuevo volumn   
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	

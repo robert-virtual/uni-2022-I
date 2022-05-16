@@ -1,0 +1,78 @@
+discos-> administracion : agregar discos sistema d archivos software raid
+
+discos -> software Raid : crear arreglos
+	- selecionamos los discos 
+	- asignar un nombre al arreglo
+	- marcar casilla de crear e inicializar
+	- selecionra el tipo de arrglo (RAID1 o RAID0)
+	- confirmarmos y aplicamos cambios
+	
+	
+configurar iscsi target
+servicios -> Iscsi target istgt
+
+inicializadores
+	- agregamos
+	- dejamos la configuracion por defecto
+	- agregar
+	- aplicamos cambios	 
+
+portales
+	- agregamos configuracion por defecto (desde conde se tiene acceso al servicio)
+	- aplicamos cambios
+
+objetivos
+	- agregamos extends(conexions directas a los arreglos)
+		- tipo dispositivo
+		- seleccionamos el arreglo al que queremos vincular el extend
+		- agregamos 
+	- targets
+		- asignamos un nombre
+		- automaticamente seleciona el pimer extends
+		- agregamos
+	guardamos cambios
+
+preferencias
+
+	- habilitar 
+	- salvar y reiniciar
+	
+	
+	
+	
+	
+	
+	
+cliente
+
+	- abrir inicializador Iscsi	
+	- confirmamos
+	- deteccion
+	- detectar portal
+	- ingresamos la ip del servidor nas
+	- aceptar
+	- destinos
+	- seleccionamos cada uno de los targets y los connectamos
+	- aceptar
+- crear volumenes 
+	- poner en linea los discos
+	- inicializar disco (MBR)
+	- crear nuevo volumen simple 
+	- todo el tamaño 
+	- asignar una letra por defecto 
+	- asignamos un nombre
+	
+
+	
+	
+
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	

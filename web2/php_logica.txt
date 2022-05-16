@@ -1,0 +1,57 @@
+<?php
+	
+	
+	class Hola {
+    	public $id = 0;
+    	public $nombre = "";
+      public $correo = "";
+        
+      public function __construct($nombre, $correo) {
+        
+        	##$this->id = $id;
+          $this->nombre =$nombre;
+          $this->correo = $correo;
+      }
+        
+      public function update(){
+        $sql = "UPDATE usuarios SET";
+        $valid = false;
+        $params = "";
+        foreach($this as $key => $value){
+          
+          if($key == "id" || !$value){
+              continue;
+          }
+          $valid = true;
+          // $params .= gettype($value) == "string";
+          $sql .= " $key = ?,";
+        }
+        if(!$valid){
+          die();  
+        }
+        $sql = rtrim($sql,",");
+        
+        $sql .= " WHERE Id = ?";
+        echo $sql; 
+         
+      }
+    }
+
+	$h = new Hola("robert","");
+	$h->update();
+	
+	echo "\n";
+	$type = gettype(1);
+	$nice = $type == "string" 
+	? "s"
+	: $type == "integer"
+	? "i"
+	: $type == "double"
+	? "d"
+	: "b";
+	
+	echo $type == "integer";
+	echo "\n";
+	echo $nice;
+	
+?>

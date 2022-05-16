@@ -1,0 +1,2 @@
+instalar linux 
+inicializar un disco de los creados en NAS desde linux

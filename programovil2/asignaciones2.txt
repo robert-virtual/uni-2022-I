@@ -1,0 +1,12 @@
+rutas y controlador de ventas
+	(Josue) - insertar  
+	(Amy)- obtener rango 
+		(recibir en el query parametros de inicio y fin de la consulta)
+	(Keren) - obtenr por id de usuario	
+
+Aplicacion movil
+	(roberto) - enviar informacion de venta
+	(roberto) - enviar solicitud de historial de ventas/compras 
+	
+productos 
+	(Roberto)- subuir imagen al registrar producto		 

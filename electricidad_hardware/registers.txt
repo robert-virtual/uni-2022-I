@@ -1,0 +1,20 @@
+registros: resultados y procesos ejecutados y por ejecutar
+
+Resgistro:
+En arquitectura de ordenadores, un registro es una memoria de alta velocidad y poca capacidad, integrada en el microprocesador, que permite guardar transitoriamente y acceder a valores muy usados, generalmente en operaciones matemáticas.
+
+Los registros están en la cumbre de la jerarquía de memoria, y son la manera más rápida que tiene el sistema de almacenar datos. Los registros se miden generalmente por el número de bits que almacenan; por ejemplo, un "registro de 8 bits" o un "registro de 32 bits". Los registros generalmente se implementan en un banco de registros, pero antiguamente se usaban biestables individuales, memoria SRAM o formas aún más primitivas.
+
+El término es usado generalmente para referirse al grupo de registros que pueden ser directamente indexados como operandos de una instrucción, como está definido en el conjunto de instrucciones. Sin embargo, los microprocesadores tienen además muchos otros registros que se usan con un propósito específico, como el contador de programa. Por ejemplo, en la arquitectura IA32, el conjunto de instrucciones define 8 registros de 32 bits. 
+
+
+
+cache en una comnputadora:
+Lo primero que tendremos que saber es en qué consiste la memoria caché en general. 
+Como ya hemos dicho, dentro de un PC hay varios tipos de memoria 
+y precisamente la memoria caché será la más rápida de todas.
+
+
+cache l2:
+cache l3:
+

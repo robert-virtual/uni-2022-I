@@ -1,0 +1,25 @@
+
+
+
+GET http://localhost:3030/profile
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwiZW1haWwiOiJyb2JlcnRvQHJvYmVydC5jb20iLCJpYXQiOjE2NDUxMjA1ODF9.RIJUIQTpz0JPop5l2bvS28xXERQl3KPFv8O4A5gcFJ0
+
+###
+POST http://localhost:3030/register
+Content-Type: application/json
+
+{
+    "name":"roberto",
+    "email":"roberto@robert.com",
+    "password":"castellanos"
+
+}
+
+###
+POST http://localhost:3030/login
+Content-Type: application/json
+
+{
+    "email":"roberto@robert.com",
+    "password":"castellanos"
+}

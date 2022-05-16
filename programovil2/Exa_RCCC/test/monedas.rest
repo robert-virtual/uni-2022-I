@@ -1,0 +1,25 @@
+
+GET http://localhost:1235/api/monedas/listar
+
+
+GET http://localhost:1235/api
+
+###
+POST http://localhost:1235/api/monedas/guardar
+Content-Type: application/json
+
+{
+    "nombre":"hola",
+    "simbolo":"H"
+}
+
+###
+PUT http://localhost:1235/api/monedas/modificar/hola
+Content-Type: application/json
+
+{
+    "nombre":"Roberts(modificada)"
+}
+
+###
+DELETE http://localhost:1235/api/monedas/eliminar/hola

@@ -1,0 +1,16 @@
+Uber aplicacion cliente
+paginas 
+	- PRINCIPAL
+		- registro
+		- login		
+	- (cliente) Mapa
+	- (conductor) dashbard
+		- Notificaciones viajes
+		- ingresos
+		- 
+	- perfil
+	- Historial de viajes
+	
+	
+	
+	 	

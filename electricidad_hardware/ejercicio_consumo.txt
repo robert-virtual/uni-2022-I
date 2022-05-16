@@ -1,0 +1,13 @@
+15 pc 		- 700W
+15 monitores 	- 45W
+Aire 			- 2,220W
+Data show 		- 330W
+
+horario
+8 horas 		- lunes - viernes 
+4 horas 		- sabado 
+
+consumo 
+Diario 
+Semanal
+valor economivo consumo mensual

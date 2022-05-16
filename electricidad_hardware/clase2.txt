@@ -1,0 +1,16 @@
+corriente: Amperios (A)
+Voltaje: vols (V)
+Resistencia: Ohmios(ohms)
+
+smd: resistencia de montaje superficial(Tecnología de montaje superficial)
+
+condensador == capacitor electrolitico (franja blanca pata negativa)
+
+bobina o inductor
+
+diodo rectificador, pata negativa viene marcada  
+diodo led o led, pata negativa es mas pequeña, necesita una resistencia para funcionar 
+
+transistor
+
+transistor de montaje superficial 

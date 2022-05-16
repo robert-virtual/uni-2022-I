@@ -1,0 +1,33 @@
+
+Inicio (Leslie)
+	- enlace a login y Registro
+	- info de la empresa	
+
+Login (caled )
+	- Usuarios
+	- conductores
+	
+Registro (Keren)
+	- Usuarios
+	
+	- conductores
+
+ayuda* (Olman)
+	- enviar correo
+	
+	
+clientes (Roberto)
+	mapa
+	perfil 
+	- historial viajes
+	- actualizar info
+	
+	dashboard conductor
+
+	
+	
+	
+	
+	
+	
+

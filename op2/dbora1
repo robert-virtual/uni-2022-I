@@ -1,0 +1,46 @@
+#! /bin/sh
+
+# Cambiar valor de ORACLE_HOME por la ruta de instalación de Oracle
+ORACLE_HOME=/opt/oracle/product/18c/dbhomeXE
+
+# Cambiar valor de ORACLE por el usuario de instalación de Oracle en Linux
+ORACLE=oracle
+
+umask 022
+ORACLE_HOME=/opt/oracle/product/18c/dbhomeXE
+ORACLE_SID=XE
+PATH=$ORACLE_HOME/bin:$PATH
+export ORACLE_HOME ORACLE_SID
+export PATH
+
+
+HOST='hostname'
+PLATFORM='uname'
+su export ORACLE_HOME PATH
+
+#
+if [ ! "$2" = "ORA_DB" ] ; then
+      runuser -l $ORACLE  $0 $1 ORA_DB
+      if [ "$PLATFORM" = "Linux" ] ; then
+         touch /var/lock/subsys/dbora
+      fi
+      exit
+   fi
+#
+case $1 in
+'start')
+        $ORACLE_HOME/bin/dbstart $ORACLE_HOME &
+        $ORACLE_HOME/bin/lsnrctl start LISTENER
+        ;;
+'stop')
+        $ORACLE_HOME/bin/dbshut $ORACLE_HOME &
+        rm -f /var/lock/subsys/dbora
+        $ORACLE_HOME/bin/lsnrctl stop LISTENER
+        ;;
+*)
+        echo "usage: $0 {start|stop}"
+        exit
+        ;;
+esac
+#
+exit

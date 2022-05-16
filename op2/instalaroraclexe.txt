@@ -1,0 +1,34 @@
+yum install compat-libcap1
+
+yum install compat-libstdc++-33
+
+dnf install libnsl
+
+yum -y localinstall oracle-database-preinstall-18c-1.0-1.el7.x86_64.rpm
+
+yum -y localinstall oracle-database-xe-18c-1.0-1.x86_64.rpm
+
+/etc/init.d/oracle-xe-18c configure
+
+sudo vi .bashrc
+ 
+ORACLE_SID=XE
+
+ORACLE_HOME=/opt/oracle/product/18c/dbhomeXE
+
+PATH=$ORACLE_HOME/bin:PATH 
+
+export ORACLE_HOME ORACLE_SID PATH
+
+#. /opt/oracle/product/18c/dbhomeXE/bin/oraenv
+
+
+su - oracle 
+vi .bash_profile
+ORACLE_SID=XE
+
+ORACLE_HOME=/opt/oracle/product/18c/dbhomeXE
+
+PATH=$ORACLE_HOME/bin:PATH 
+
+export ORACLE_HOME ORACLE_SID PATH

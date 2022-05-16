@@ -1,0 +1,126 @@
+- Muestra los datos de mortalidad y sobrevivencia de una población o cohorte, un grupo de individuos de la misma edad, en momentos diferentes de su vida útil.
++ Una tabla de vida
+
+- El bambú gigante vive muchos años sin reproducirse, luego da lugar a un largo pedúnculo florecido y muere poco después. Por tanto, el bambú gigante es un ejemplo de
++ semelparidad
+
+
+- La mayor población que un ambiente particular puede mantener durante un período indefinido se conoce como:
++ capacidad de carga de una población
+
+
+
+
+- Factores independientes de la densidad
++ Eventos climáticos
+
+- Factores que producen cambios en el tamaño de la población
++ Todas son correctas
+
+- En una gráfica de tamaño de población en función del tiempo, una curva con forma de J es característica de:
++ un crecimiento exponencial de la población
+
+- La tasa máxima a la que una población podría crecer en condiciones ideales se conoce como su:
++ tasa intrínseca de crecimiento
+
+
+- Es la proporción de cada una de las clases de edades respecto de las demás en un momento dado
++ Cohorte
+
+- Limitan el crecimiento de la población, pero no son influidos por cambios en la densidad de población. Los huracanes y las tormentas de nieve son ejemplos de estos factores
++  Los factores independientes de la densidad
+
+- Es la razón de cambio (aumento o disminución) de una población sobre una base per cápita.
++ La tasa de crecimiento,
+
++ Regulan el crecimiento de la población al afectar a una gran proporción de la población a medida que la densidad de población crece. La depredación, las enfermedades y la competencia son ejemplos de estos factores 
+- Los factores dependientes de la densidad
+
+
+- Es la capacidad de autoregeneracion de un sistema, para resistir y adaptarse ante cambios adversos fuertes y repentinos, manteniendo su estabilidad y calidad de sus funciones.
++ Resiliencia
+
++ Un grupo que consta de miembros de la misma especie que viven juntos al mismo tiempo en un área prescrita. 
+- Población
+
+- Disciplina científica vinculada con la ecología, se enfoca en la forma en que los humanos interactúan con el ambiente. 
++ Ciencia Ambiental
+
+
+- Es el estudio de los cambios en las poblaciones: cómo y por qué las cifras aumentan o disminuyen con el tiempo 
++ La dinámica de la población
+
+
+
+- Es el número de individuos de una especie por unidad de área o volumen en un momento dado.
++ Densidad poblacional
+
+
+- Es el espaciamiento mutuo entre los individuos de una población
++ Dispersión
+
+
+- Es el estudio de cómo los organismos vivos y el ambiente físico interactúan en una inmensa y complicada red de relaciones.
++ Ecología
+
+
++ Cuando las bacterias se dividen cada 20 minutos, su cantidad (expresada en millones) su crecimiento es:
+- Exponencial
+
+- Conjunto de poblaciones locales entre las cuales están distribuidos los individuos en distintos parches de hábitat a lo largo de un paisaje, que es una gran área de terreno (desde varios hasta muchos kilómetros cuadrados) compuestos de ecosistemas que interactúan.
++ Metapoblación
+
+
+
+- Los factores dependientes de la densidad son un excelente ejemplo de un:
++ Sistema de retroalimentación negativa
+
+- Probabilidad de que un individuo dado en una población o cohorte sobreviva a una edad particular
++ Sobrevivencia
+
+- habitad de menor calidad, en ellos los individuos pueden morir y en caso de sobrevivir tienen un deficiente éxito reproductivo
++ Hábitats sumideros
+
+
+- Los individuos que menudo tienen pequeños tamaños corporales, altas tasas de reproducción y vidas útiles cortas, y suelen habitar en ambientes variables tienen:
++ Estrategia r
+
+
++ ¿Cuál de los siguientes patrones de automóviles estacionados en una calle es un ejemplo de dispersión uniforme?
+- cinco automóviles estacionados con este patrón: automóvil, espacio vacío, automóvil, Espacio vacío y así sucesivamente
+
++ La emigración ocurre cuando:
+- de una población salen individuos
+
+- La capacidad potencial de producir descendencia
++ Fecundidad,
+
+
+- La capacidad de un individuo para reproducirse con éxito, haciendo así una contribución genética a las generaciones futuras de una población, se denomina
++ Aptitud
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

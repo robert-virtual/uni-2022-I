@@ -1,0 +1,51 @@
+sudo apt update
+
+------------------------------apache
+sudo apt install apache2
+
+------------------------------verificar instalacion
+sudo systemctl status apache2
+
+
+------------------------------mysql
+sudo apt install mysql-server
+sudo mysql_secure_installation
+respuestas a instalacion:
+yes
+0
+
+password: admin
+
+------------------------------crear usuario
+sudo mysql
+
+CREATE USER 'nombre_usuario'@'localhost' IDENTIFIED BY 'contraseña';
+
+GRANT ALL PRIVILEGES ON *.* TO 'nombre_usuario'@'localhost';
+
+FLUSH PRIVILEGES;
+
+
+------------------------------------------------- instalacion de PHP
+sudo apt install php libapache2-mod-php php-mysql
+
+---------------------------------------------------verificar instalacion de php
+
+sudo nano /var/www/html/info.php
+
+---------------------------------------------------escribir las siguientes lineas de codigo en el archivo
+<?php 
+phpinfo();
+?>
+
+---------------------------ingresar en el navegador 
+localhost/info.php
+
+
+
+
+
+
+
+
+

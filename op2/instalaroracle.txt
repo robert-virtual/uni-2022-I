@@ -1,0 +1,25 @@
+curl -o compat-libcap1-1.10-7.el7.x86_64.rpm http://mirror.centos.org/centos/7/os/x86_64/Packages/compat-libcap1-1.10-7.el7.x86_64.rpm
+
+
+curl -o compat-libstdc++-33-3.2.3-72.el7.x86_64.rpm http://mirror.centos.org/centos/7/os/x86_64/Packages/compat-libstdc++-33-3.2.3-72.el7.x86_64.rpm
+
+
+sudo sed -i -e "s|mirrorlist=|#mirrorlist=|g" /etc/yum.repos.d/CentOS-*
+sudo sed -i -e "s|#baseurl=http://mirror.centos.org|baseurl=http://vault.centos.org|g" /etc/yum.repos.d/CentOS-*
+dnf clean all
+dnf swap centos-linux-repos centos-stream-repos
+
+
+yum install -y libnsl
+
+
+yum install compat-libcap1-1.10-7.el7.x86_64.rpm
+
+
+yum install compat-libstdc++-33-3.2.3-72.el7.x86_64.rpm
+
+
+yum localinstall oracle-database-preinstall-18c-1.0-1.el7.x86_64.rpm
+
+
+yum localinstall oracle-database-xe-18c-1.0-1.x86_64.rpm

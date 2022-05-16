@@ -1,0 +1,55 @@
+RAID 0 (velocidad)
+se escribe parte de un 
+archivo en varios discos
+por lo tanto se lee y escribe de varios discos lo que mejorra el  rendimiento y velocidad
+- es inseguro si se daña un disco perdemos toda la informacion
+
+
+RAID 1
+espejo
+escritura no ventajas
+lectura velocidad 
+BALANCEO la cantidad de espcio dispoibles es la cantidad de espacio del disco de menor capacidad
+la velovidad es la de el mas lento
+discos pequeños para sistemas operativos
+
+
+RAID 5
+espacio disponibles = N-1
+cada disco es de 1TB
+4 dicos - 1 = 3   
+- bloques de pariedad
+	- se distribuyen estre los discos, permiten recuperar datos de un dico dañado
+- 
+
+RAID 6
+espacio disponibles = N-2
+cada disco es de 1TB
+4 dicos - 2 = 2   
+
+
+
+
+
+RAID 10
+n/2
+5 discos de 2 TB
+=  10TB/2 = 5TB 
+
+
+
+
+500GB 2 
+
+
+6 1TB
+6TB-1
+
+
+RAID 6
+
+6 1.5TB
+
+4*1.5
+
+

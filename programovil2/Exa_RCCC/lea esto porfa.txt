@@ -1,0 +1,5 @@
+ejecute el comando "yarn" 
+en lugar de "npm install"
+
+yo uso ese otro gestor de paquetes
+q tenga buen dia

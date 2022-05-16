@@ -1,0 +1,7 @@
+puente norte comunica: 
+
+puente sur: arranque,bios,puertos psi, puertos usb
+
+que es uefi, gpt, mbr, csm
+
+ 

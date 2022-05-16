@@ -1,0 +1,40 @@
+pantallas:
+	- login
+		- olvide mi contraseña	
+	- Registro
+	
+	- Productos
+		- Producto (stock)
+			- Comprar producto
+				- pagar con targeta de debito o credito
+				- pagar en la entrega del producto 				
+			- agregar al carrito de compras
+	- Historial de compras
+		- Recibo de Producto
+	- Perfil (cliente:email,direccion,nombre,telefono)
+	- Contacto (Empresa)
+
+
+
+--- Productos
+	- modelo
+	- rutas
+	- controladores
+	
+modelos:
+	- Productos: Keren Castellanos
+		- rutas y controladores
+	- Usuarios: Amy garrido
+		- rutas y controladores(Amy y Josue)
+	- Ventas: Roberto Castillo 
+		- rutas y controladores
+	- Contacto*: Josue Lainez
+	
+rutas sin modelo:
+	- autenticacion	
+	- recuperacion	
+	
+	
+	
+	
+	

@@ -1,0 +1,10 @@
+passport
+passport-jwt
+jsonwebtoken
+nodemailer
+dotenv
+
+controllador autenticacion
+inicio 
+cierre 
+etc

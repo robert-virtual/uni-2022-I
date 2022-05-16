@@ -1,0 +1,19 @@
+
+solo necesita descargar o clonar el codigo de la aplicacion movil(react native)  
+
+aplicacion movil react native:
+	- https://github.com/robert-virtual/ferreteria_app
+
+- la api ya esta publica no es necesario que la ejecute
+  la api esta desplegada en un servidor de heroku
+  
+- la base de datos esta desplegada en un servidor
+  de aws
+
+
+
+codigo api:
+	- https://github.com/robert-virtual/ferreteria_backend 
+
+dominio de la api:
+	- https://ferreteria-movil.herokuapp.com  

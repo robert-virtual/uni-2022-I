@@ -1,0 +1,1 @@
+puerto estandar de servicio SCSI: 3260

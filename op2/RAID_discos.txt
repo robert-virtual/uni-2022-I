@@ -1,0 +1,16 @@
+
+
+
+
+
+
+
+RPM
+7,200 demanda I/O baja
+10,000 demanda I/O media
+15,000 demanda I/O alta
+
+SSD
+	- lectura intensiva
+	- uso mixto
+	- escritura intensiva

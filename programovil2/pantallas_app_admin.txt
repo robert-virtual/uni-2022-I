@@ -1,0 +1,9 @@
+pantallas aplicacion administrativa
+- (Agregar productos) Agregar productos
+- Navegacion
+- (Josue)Login
+- (Josue)Restablecer clave
+- (Amy) resumen ventas
+- (Keren) visualizar usuarios
+- (Keren) crear Ruta en la Api de listar clientes
+
